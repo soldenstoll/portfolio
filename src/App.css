@@ -1,14 +1,15 @@
+@import "tailwindcss";
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100%;
+  margin: 0;
   text-align: center;
 }
 
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: black; /* Replace with background-image later */
+  background-color: black;
   color: white;
 }
 
@@ -23,5 +24,4 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  position: relative;
 }
