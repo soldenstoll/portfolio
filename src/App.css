@@ -7,10 +7,10 @@
 }
 
 body {
+  font-family: sans-serif;
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .app-container {
@@ -24,4 +24,26 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+
+.framed-box {
+  padding: 40px 40px 10px 40px;
+  line-height: 1.4;
+  font-size: 14px;
+  color: black;
+  background: linear-gradient(#C5C5C5, #C5C5C5), linear-gradient(#C5C5C5, #C5C5C5), linear-gradient(#C5C5C5, #C5C5C5), linear-gradient(#C5C5C5, #C5C5C5), linear-gradient(#f5f5f5, #f5f5f5);
+  background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%, calc(100% - 60px) calc(100% - 30px);
+  background-position: 0px 30px, calc(100% - 30px) 0px, 0px calc(100%), 30px 0px, 30px 30px;
+  background-repeat: no-repeat;
+}
+
+.framed-box-bottom {
+  padding: 40px;
+  line-height: 1.4;
+  font-size: 14px;
+  color: black;
+  background: linear-gradient(#C5C5C5, #C5C5C5), linear-gradient(#C5C5C5, #C5C5C5), linear-gradient(#C5C5C5, #C5C5C5), linear-gradient(#C5C5C5, #C5C5C5), linear-gradient(#f5f5f5, #f5f5f5);
+  background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%, calc(100% - 60px) calc(100% - 60px);
+  background-position: 0px 30px, calc(100% - 30px) 0px, 0px calc(100% - 30px), 30px 0px, 30px 30px;
+  background-repeat: no-repeat;
 }

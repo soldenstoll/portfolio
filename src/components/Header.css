@@ -6,6 +6,10 @@
   z-index: 1000;
 }
 
+.site-header a {
+  color: white;
+}
+
 .header-bar {
   left: 0;
   min-height: 60px;
@@ -20,6 +24,8 @@
 }
 
 .logo {
+  color: white;
+  font-style: italic;
   font-size: 1.5rem;
   font-weight: bold;
   align-items: flex-start;
@@ -39,7 +45,6 @@
 
 .menu a {
   text-decoration: none;
-  color: white;
   font-size: 1rem;
   transition: color 0.3s;
 }
@@ -54,7 +59,6 @@
 }
 
 .socials a {
-  color: white;
   font-size: 1.2rem;
   transition: color 0.3s;
 }

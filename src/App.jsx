@@ -9,7 +9,16 @@ function App() {
       <div className="fullpage-wrapper relative min-h-screen">
         <BackgroundImage path="/images/personal-site-background.jpg"/>
         <div className="content-below">
-          <p>TEST</p>
+          <div className='framed-box'>
+            <div>
+              <h1>TEST</h1>
+              <p>test</p></div>
+          </div>
+          <div className='framed-box-bottom'>
+            <div>
+              <h1>TEST</h1>
+              <p>test</p></div>
+          </div>
         </div>
       </div>
     </div>
