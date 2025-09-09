@@ -6,11 +6,15 @@
   text-align: center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: sans-serif;
   margin: 0;
-  background-color: white;
-  color: black;
+  background-color: oklch(13% .028 261.692);
+  color: white;
 }
 
 .app-container {
@@ -27,23 +31,34 @@ body {
 }
 
 .framed-box {
-  padding: 40px 40px 10px 40px;
+  padding: 40px 13vw 10px 13vw;
   line-height: 1.4;
   font-size: 14px;
-  color: black;
-  background: linear-gradient(#C5C5C5, #C5C5C5), linear-gradient(#C5C5C5, #C5C5C5), linear-gradient(#C5C5C5, #C5C5C5), linear-gradient(#C5C5C5, #C5C5C5), linear-gradient(#f5f5f5, #f5f5f5);
-  background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%, calc(100% - 60px) calc(100% - 30px);
-  background-position: 0px 30px, calc(100% - 30px) 0px, 0px calc(100%), 30px 0px, 30px 30px;
+  color: white;
+  background: linear-gradient(color-mix(in oklab, white 10%, transparent), color-mix(in oklab, white 10%, transparent)), linear-gradient(color-mix(in oklab, white 10%, transparent), color-mix(in oklab, white 10%, transparent)), linear-gradient(color-mix(in oklab, white 10%, transparent), color-mix(in oklab, white 10%, transparent)), linear-gradient(color-mix(in oklab, white 10%, transparent), color-mix(in oklab, white 10%, transparent));
+  background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%;
+  background-position: 0px 30px, calc(100% - 12vw) 0px, 0px calc(100%), 12vw 0px;
   background-repeat: no-repeat;
 }
 
 .framed-box-bottom {
-  padding: 40px;
+  padding: 40px 13vw 40px 13vw;
   line-height: 1.4;
   font-size: 14px;
-  color: black;
-  background: linear-gradient(#C5C5C5, #C5C5C5), linear-gradient(#C5C5C5, #C5C5C5), linear-gradient(#C5C5C5, #C5C5C5), linear-gradient(#C5C5C5, #C5C5C5), linear-gradient(#f5f5f5, #f5f5f5);
-  background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%, calc(100% - 60px) calc(100% - 60px);
-  background-position: 0px 30px, calc(100% - 30px) 0px, 0px calc(100% - 30px), 30px 0px, 30px 30px;
+  color: white;
+  background: linear-gradient(color-mix(in oklab, white 10%, transparent), color-mix(in oklab, white 10%, transparent)), linear-gradient(color-mix(in oklab, white 10%, transparent), color-mix(in oklab, white 10%, transparent)), linear-gradient(color-mix(in oklab, white 10%, transparent), color-mix(in oklab, white 10%, transparent)), linear-gradient(color-mix(in oklab, white 10%, transparent), color-mix(in oklab, white 10%, transparent));
+  background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%;
+  background-position: 0px 30px, calc(100% - 12vw) 0px, 0px calc(100% - 30px), 12vw 0px;
+  background-repeat: no-repeat;
+}
+
+.framed-footer-text {
+  padding: 10px 0px 10px 0px;
+  line-height: 1.4;
+  font-size: 10px;
+  color: gray;
+  background: linear-gradient(color-mix(in oklab, white 10%, transparent), color-mix(in oklab, white 10%, transparent)), linear-gradient(color-mix(in oklab, white 10%, transparent), color-mix(in oklab, white 10%, transparent));
+  background-size: 2px 100%, 2px 100%;
+  background-position: calc(100% - 12vw) 0px, 12vw 0px;
   background-repeat: no-repeat;
 }
