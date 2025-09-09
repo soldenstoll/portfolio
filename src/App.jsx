@@ -11,7 +11,7 @@ function App() {
     <div className="app-container">
       <Header />
       <div className="fullpage-wrapper relative min-h-screen">
-        <BackgroundImage path="/images/personal-site-background.jpg"/>
+        <BackgroundImage path="personal-site-background.jpg"/>
         <div className="content-below">
           <div className='framed-box' id="about">
             <AboutSection />

@@ -1,4 +1,5 @@
 import './Header.css';
+import useMediaQuery from '../hooks/useMediaQuery';
 
 function Header() {
   const linkedin = "https://www.linkedin.com/in/solden/";
@@ -12,9 +13,10 @@ function Header() {
     { href: orcid, icon: "fas fa-circle-nodes", label: "ORCID" },
   ];
 
-  return (
-    <header className="site-header">
-      <div className="header-bar">
+  const desktopNav = () => {
+    return (
+      <header className="site-header">
+        <div className="header-bar">
           <div className="logo">SOLDEN STOLL</div>
           <div className="nav-links">
             <div className="menu">
@@ -35,10 +37,43 @@ function Header() {
                 </a>
               ))}
             </div>
+          </div>
         </div>
-      </div>
-    </header>
-  );
+      </header>
+    );
+  }
+
+  const mobileNav = () => {
+    return (
+      <header className="site-header">
+        <div className="header-bar">
+          <div className="logo">SOLDEN STOLL</div>
+          <div className="nav-links">
+            <div className="socials">
+              {links.map(({ href, icon }, idx) => (
+                <a
+                  key={idx}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className={icon}></i>
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+      </header>
+    );
+  }
+
+  const renderMobile = useMediaQuery("(max-width: 768px");
+
+  if (renderMobile) {
+    return mobileNav();
+  }
+
+  return desktopNav();
 }
 
 export default Header;

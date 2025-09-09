@@ -23,6 +23,10 @@
   box-sizing: border-box;
 }
 
+.mobile-header-align {
+  flex-direction: column;
+}
+
 .logo {
   color: white;
   font-style: italic;
