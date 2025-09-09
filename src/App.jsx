@@ -5,12 +5,9 @@ import BackgroundImage from './components/BackgroundImage.jsx';
 import ProjectList from './components/ProjectList.jsx';
 import WorkList from './components/WorkList.jsx';
 import AboutSection from './components/AboutSection.jsx';
-import RedirectToOll from './components/RedirectToOll.jsx';
 
 function App() {
   return (
-    <>
-    <RedirectToOll />
     <div className="app-container">
       <Header />
       <div className="fullpage-wrapper relative min-h-screen">
@@ -33,7 +30,6 @@ function App() {
         </div>
       </div>
     </div>
-    </>
   );
 }
 
