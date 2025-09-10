@@ -12,6 +12,7 @@ function App() {
       <Header />
       <div className="fullpage-wrapper relative min-h-screen">
         <BackgroundImage path="personal-site-background.jpg"/>
+        <header className='fixed top-0 w-full h-[94.8px] bg-[var(--background-color)] border-b-2 border-[var(--grid-line-color)] z-40'></header>
         <div className="content-below">
           <div className='framed-box' id="about">
             <AboutSection />

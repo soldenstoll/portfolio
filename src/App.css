@@ -13,7 +13,7 @@ html {
 body {
   font-family: sans-serif;
   margin: 0;
-  background-color: oklch(13% .028 261.692);
+  background-color: var(--background-color);
   color: white;
 }
 
@@ -35,7 +35,7 @@ body {
   line-height: 1.4;
   font-size: 14px;
   color: white;
-  background: linear-gradient(color-mix(in oklab, white 10%, transparent), color-mix(in oklab, white 10%, transparent)), linear-gradient(color-mix(in oklab, white 10%, transparent), color-mix(in oklab, white 10%, transparent)), linear-gradient(color-mix(in oklab, white 10%, transparent), color-mix(in oklab, white 10%, transparent)), linear-gradient(color-mix(in oklab, white 10%, transparent), color-mix(in oklab, white 10%, transparent));
+  background: linear-gradient(var(--grid-line-color), var(--grid-line-color)), linear-gradient(var(--grid-line-color), var(--grid-line-color)), linear-gradient(var(--grid-line-color), var(--grid-line-color)), linear-gradient(var(--grid-line-color), var(--grid-line-color));
   background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%;
   background-position: 0px 30px, calc(100% - 12vw) 0px, 0px calc(100%), 12vw 0px;
   background-repeat: no-repeat;
@@ -46,7 +46,7 @@ body {
   line-height: 1.4;
   font-size: 14px;
   color: white;
-  background: linear-gradient(color-mix(in oklab, white 10%, transparent), color-mix(in oklab, white 10%, transparent)), linear-gradient(color-mix(in oklab, white 10%, transparent), color-mix(in oklab, white 10%, transparent)), linear-gradient(color-mix(in oklab, white 10%, transparent), color-mix(in oklab, white 10%, transparent)), linear-gradient(color-mix(in oklab, white 10%, transparent), color-mix(in oklab, white 10%, transparent));
+  background: linear-gradient(var(--grid-line-color), var(--grid-line-color)), linear-gradient(var(--grid-line-color), var(--grid-line-color)), linear-gradient(var(--grid-line-color), var(--grid-line-color)), linear-gradient(var(--grid-line-color), var(--grid-line-color));
   background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%;
   background-position: 0px 30px, calc(100% - 12vw) 0px, 0px calc(100% - 30px), 12vw 0px;
   background-repeat: no-repeat;
@@ -57,7 +57,7 @@ body {
   line-height: 1.4;
   font-size: 10px;
   color: gray;
-  background: linear-gradient(color-mix(in oklab, white 10%, transparent), color-mix(in oklab, white 10%, transparent)), linear-gradient(color-mix(in oklab, white 10%, transparent), color-mix(in oklab, white 10%, transparent));
+  background: linear-gradient(var(--grid-line-color), var(--grid-line-color)), linear-gradient(var(--grid-line-color), var(--grid-line-color));
   background-size: 2px 100%, 2px 100%;
   background-position: calc(100% - 12vw) 0px, 12vw 0px;
   background-repeat: no-repeat;

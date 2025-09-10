@@ -3,6 +3,6 @@
   display: flex;
   padding: 10px 0px 10px 1vw;
   margin: 0px -1vw 10px -1vw;
-  border-top: 2px solid color-mix(in oklab, white 10%, transparent);
-  border-bottom: 2px solid color-mix(in oklab, white 10%, transparent);
+  border-top: 2px solid var(--grid-line-color);
+  border-bottom: 2px solid var(--grid-line-color);
 }

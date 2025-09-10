@@ -18,7 +18,7 @@ function BackgroundImage({ path }) {
   }
 
   return (
-    <div className="background-image-wrapper">
+    <div className="background-image-wrapper z-51">
       <span 
         className="background-image"
         style={{
