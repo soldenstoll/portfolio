@@ -14,8 +14,11 @@ function App() {
         <BackgroundImage path="personal-site-background.jpg"/>
         <header className='fixed top-0 w-full h-[68px] md:h-[94.8px] bg-[var(--background-color)] border-b-2 border-[var(--grid-line-color)] z-40'></header>
         <div className="content-below">
-          <div className="h-30 w-full hidden border-y border-y-(--pattern-fg) bg-[image:repeating-linear-gradient(315deg,_var(--pattern-fg)_0,_var(--pattern-fg)_1px,_transparent_0,_transparent_50%)] bg-[size:10px_10px] bg-fixed [--pattern-fg:var(--color-black)]/5 md:block dark:[--pattern-fg:var(--color-white)]/10"></div>
-          <div className='framed-box' id="about">
+          <div className="h-30 w-full hidden border-y border-y-(--pattern-fg) 
+                        bg-[image:repeating-linear-gradient(315deg,_var(--pattern-fg)_0,_var(--pattern-fg)_1px,_transparent_0,_transparent_50%)]
+                        bg-[size:10px_10px] bg-fixed [--pattern-fg:var(--color-black)]/5 md:block dark:[--pattern-fg:var(--color-white)]/10"
+                        id="about"></div>
+          <div className='framed-box'>
             <AboutSection />
           </div>
           <div className='framed-box' id="projects">
