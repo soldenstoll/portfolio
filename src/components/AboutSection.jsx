@@ -24,8 +24,9 @@ const AboutSection = () => {
           </PhotoTextPair>
         </div>
         <div className="flex flex-col w-full min-h-16 border-[2px] border-[var(--grid-line-color)] rounded-lg">
-          <div>
-            <p className="text-2xl text-left pl-5 pt-2">Education</p>
+          <div className="px-5">
+            <p className="text-2xl text-left pt-5">Education</p>
+            <div className="h-0 w-full border-[1px] border-[var(--grid-line-color)]"></div>
           </div>
           <PhotoTextPair img="/images/allen-school-logo.jpeg" height={"128px"} padding={"20px"}>
             <div className="flex flex-col text-left">
@@ -45,7 +46,7 @@ const AboutSection = () => {
         </div>
         <div className="flex w-full min-h-16 border-[2px] border-[var(--grid-line-color)] rounded-lg">
           <div className="flex flex-col text-left w-full p-5">
-            <p className="text-xl">Skills</p>
+            <p className="text-2xl">Skills</p>
             <div className="h-0 w-full border-[1px] border-[var(--grid-line-color)]"></div>
             <p className="text-base">Languages: Proficient in Java, Python, C/C++, SQL. Familiar with JS/TS, HTML/CSS, Golang</p>
             <p className="text-base">Libraries/Tools: Git, Pytorch, React, Node, POSIX IO, GDB, Tailwind CSS, NumPy, Pandas, OpenAI API, Seaborn, Matplotlib</p>
