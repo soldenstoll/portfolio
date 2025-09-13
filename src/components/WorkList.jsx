@@ -7,11 +7,27 @@ const workData = [
   {
     name: <PhotoTextPair img="/images/uw-logo.png" height={"50px"} padding={"5px"}>
       <div className="align-middle text-left">
-        <p className="text-xl">Course Assistand, University of Washington</p>
+        <p className="text-xl">Undegraduate Research Assistant, Sensor Systems Lab</p>
+        <p> September 2025 - Present</p>
+      </div>
+    </PhotoTextPair>,
+    details: <p>
+              Incoming research assistant in the <a href="https://sensor.cs.washington.edu/"> UW Sensor Systems Lab </a> lead by Dr. Joshua Smith."
+              Using machine learning to encode visual comminication.
+             </p>,
+  },
+  {
+    name: <PhotoTextPair img="/images/uw-logo.png" height={"50px"} padding={"5px"}>
+      <div className="align-middle text-left">
+        <p className="text-xl">Course Assistant, University of Washington</p>
         <p> June 2025 - Present</p>
       </div>
     </PhotoTextPair>,
-    details: "This is a brief description of Project One. It uses React and Tailwind CSS.",
+    details: <p>
+              Course assistant for MATH 207 - Differential Equations with Dr. Su. Responsibilities
+              include holding office hours and review sessions, grading assignments, proctoring exams
+              and facilitating student/teach communication.
+             </p>,
   },
   {
     name: <PhotoTextPair img="/images/slalom-logo.jpeg" height={"50px"} padding={"5px"}>
@@ -20,7 +36,19 @@ const workData = [
         <p> June 2024 - Septmeber 2024</p>
       </div>
     </PhotoTextPair>,
-    details: "This is a brief description of Project One. It uses React and Tailwind CSS.",
+    details:<>
+            <p>
+              - Developed a sales pursuit tagging pipeline to accurately group pursuits. Results were included
+              in company wide reports read by executives to better understand what kinds of work were selling best.
+            </p>
+            <p>
+              - Refactored the pipeline into modular utility functions that were later used to match acceleration tools
+              to pursuits.
+            </p>
+            <p>
+              - Built a feedback topic analysis model for managers to effeciently read feedback.
+            </p>
+            </>
   },
   {
     name: <PhotoTextPair img="/images/uw-logo.png" height={"50px"} padding={"5px"}>
@@ -29,7 +57,20 @@ const workData = [
         <p> March 2024 - September 2025</p>
       </div>
     </PhotoTextPair>,
-    details: "Project Two is a Node.js backend project that handles API requests efficiently.",
+    details: <>
+              <p>
+                Worked on the following research projects:
+              </p>
+              <p>
+                - Calculating minimal resolutions over Exterior Algebras with Jackson Morris, June 2025 - August 2025
+              </p>
+              <p>
+                - Homotopy Theory and Algebraic Topology with Jackson Morris, March 2025 - June 2025
+              </p>
+              <p>
+                - Wave propogation and spectral analysis of Graphs with Dr. Hadrian Quan, March 2024 - June 2024
+              </p>
+             </>,
   },
 ];
 
@@ -67,7 +108,7 @@ function WorkList() {
               <span className="text-white font-medium">{job.name}</span>
             </button>
             {state[index] && (
-              <div className="mt-1 ml-6 text-white">{job.details}</div>
+              <div className="mt-1 ml-6 text-white text-left text-base">{job.details}</div>
             )}
           </div>
         )})}

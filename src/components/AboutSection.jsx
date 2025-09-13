@@ -13,9 +13,10 @@ const AboutSection = () => {
           <PhotoTextPair img="/images/personal-site-headshot.png" height={"128px"} padding={"20px"}>
             <p className="text-base text-left">
               Hello! I'm Solden, a fourth year computer science and mathematics student
-              at the University of Washington Allen School, and an aspiring software engineer. I enjoy continuous learning,
+              at the University of Washington Allen School, and an aspiring software engineer . I am an incoming research assistant with 
+              the <a href="https://sensor.cs.washington.edu/"> Sensor Systems Lab </a> at UW. I enjoy continuous learning,
               building interesting things, and solving complex problems. Within computer science, I am interested in 
-              systems programming, data science, and machine learning. Within math, my interests lie in topology, and the 
+              systems programming, machine learning, and data science. Within math, my interests lie in topology, and the 
               mathematical side of machine learning. I am currently working as a TA for 
               <a href="https://sites.math.washington.edu/~m207/"> math 207 </a> with Dr. SU. In my free time I
               enjoy ski touring, hiking, and watching soccer (go Chelsea), as well as competing in triathlons. Below is more

@@ -4,16 +4,47 @@ import "./ItemList.css";
 
 const projectsData = [
   {
-    name: "Project One",
-    details: "This is a brief description of Project One. It uses React and Tailwind CSS.",
+    name: "Goal Animation and Soccer Stats Web App",
+    details: <>
+              <p>
+                Built PyTorch models predicting goal probability (xG/xGOT) and player-based goal probability. Currently building a full
+                stack web app around it for coaches and players to calculate xG based on their shots, compare xG for different
+                famous players, and display 3D animated models of past goals. Using Three.js for animation, and a custom built
+                RESTful API backend using Go and Gin.
+              </p>
+             </>,
   },
   {
-    name: "Project Two",
-    details: "Project Two is a Node.js backend project that handles API requests efficiently.",
+    name: "Multiplayer Network Tic-Tac-Toe",
+    details: <>
+              <p>
+                Designed and implemented a clientt-server architecture for a multiplayer termincal Tic-Tac-Toe game.
+                Built a high-performance custom C++ server handling game state, syncrhonization, and player sessions,
+                as well as a lightweight python client program using POSIX socket APIs for cross-device connectivity.
+                Currently expanding to support game rooms to allow multiple games to occur synchronously.
+              </p>
+             </>,
   },
   {
-    name: "Project Three",
-    details: "Project Three is a small Python tool for automating repetitive tasks.",
+    name: "TKE Website",
+    details: <>
+              <p>
+                Codeveloped <a href="https://uwtke.beer">uwtke.beer</a>. Indicidual contributions include
+                utilizing the Google Maps JS API to provide streetview viewing and directions, devoloping the Rush page
+                animating components, and refactoring elements for better mobile viewing.
+              </p>
+             </>,
+  },
+  {
+    name: "Automated Assignment Reminder",
+    details: <>
+              <p>
+                Created a pyton script to automatically create reminders for course assignments on MacOS
+                devices. Created in response to the large amount of excercises in CSE 333. Can be generalized
+                to create reminders based on data from any website, and instructions/code can be found on my
+                <a href="https://github.com/soldenstoll/uw-cse-assignment-reminder"> Github</a>.
+              </p>
+             </>,
   },
 ];
 
@@ -48,10 +79,10 @@ function ProjectList() {
               <span className="mr-2">
                 {state[index] ? <FaChevronDown /> : <FaChevronRight />}
               </span>
-              <span className="text-white font-medium">{project.name}</span>
+              <span className="text-white text-xl">{project.name}</span>
             </button>
             {state[index] && (
-              <div className="mt-1 ml-6 text-white">{project.details}</div>
+              <div className="mt-1 ml-6 text-white text-left text-base">{project.details}</div>
             )}
           </div>
         )})}
