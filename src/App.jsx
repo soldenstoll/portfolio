@@ -32,7 +32,7 @@ function App() {
           <footer>
             <div className='framed-footer-text'>
               <p>© 2025 SOLDEN STOLL</p>
-              <p>Best viewed on Desktop</p>
+              <p className="lg:hidden">BEST VIEWED ON DESKTOP</p>
             </div>
           </footer>
           <div className="h-30 w-full block border-y border-y-(--pattern-fg) 
