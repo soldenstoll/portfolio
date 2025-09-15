@@ -5,6 +5,7 @@ import BackgroundImage from './components/BackgroundImage.jsx';
 import ProjectList from './components/ProjectList.jsx';
 import WorkList from './components/WorkList.jsx';
 import AboutSection from './components/AboutSection.jsx';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Analytics />
     </div>
   );
 }
