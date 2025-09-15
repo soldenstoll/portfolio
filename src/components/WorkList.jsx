@@ -7,8 +7,8 @@ const workData = [
   {
     name: <PhotoTextPair img="/images/uw-logo.png" height={"50px"} padding={"5px"}>
       <div className="align-middle text-left">
-        <p className="text-xl">Undegraduate Research Assistant, Sensor Systems Lab</p>
-        <p> September 2025 - Present</p>
+        <p className="text-base lg:text-xl">Undegraduate Research Assistant, Sensor Systems Lab</p>
+        <p className="text-sm">September 2025 - Present</p>
       </div>
     </PhotoTextPair>,
     details: <p>
@@ -19,8 +19,8 @@ const workData = [
   {
     name: <PhotoTextPair img="/images/uw-logo.png" height={"50px"} padding={"5px"}>
       <div className="align-middle text-left">
-        <p className="text-xl">Course Assistant, University of Washington</p>
-        <p> June 2025 - Present</p>
+        <p className="text-base lg:text-xl">Course Assistant, University of Washington</p>
+        <p className="text-sm">June 2025 - Present</p>
       </div>
     </PhotoTextPair>,
     details: <p>
@@ -32,8 +32,8 @@ const workData = [
   {
     name: <PhotoTextPair img="/images/slalom-logo.jpeg" height={"50px"} padding={"5px"}>
       <div className="align-middle text-left">
-        <p className="text-xl">Data Science Intern, Slalom Consulting LLC</p>
-        <p> June 2024 - Septmeber 2024</p>
+        <p className="text-base lg:text-xl">Data Science Intern, Slalom Consulting LLC</p>
+        <p className="text-sm">June 2024 - Septmeber 2024</p>
       </div>
     </PhotoTextPair>,
     details:<>
@@ -53,8 +53,8 @@ const workData = [
   {
     name: <PhotoTextPair img="/images/uw-logo.png" height={"50px"} padding={"5px"}>
       <div className="align-middle text-left">
-        <p className="text-xl">Undegraduate Researcher, Univeristy of Washington Department of Mathematics</p>
-        <p> March 2024 - September 2025</p>
+        <p className="text-base lg:text-xl">Undegraduate Researcher, Univeristy of Washington Department of Mathematics</p>
+        <p className="text-sm"> March 2024 - September 2025</p>
       </div>
     </PhotoTextPair>,
     details: <>
@@ -105,7 +105,7 @@ function WorkList() {
               <span className="mr-2">
                 {state[index] ? <FaChevronDown /> : <FaChevronRight />}
               </span>
-              <span className="text-white font-medium">{job.name}</span>
+              <span className="text-white flex w-full">{job.name}</span>
             </button>
             {state[index] && (
               <div className="mt-1 ml-6 text-white text-left text-base">{job.details}</div>

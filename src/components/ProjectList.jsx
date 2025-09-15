@@ -79,10 +79,10 @@ function ProjectList() {
               <span className="mr-2">
                 {state[index] ? <FaChevronDown /> : <FaChevronRight />}
               </span>
-              <span className="text-white text-xl">{project.name}</span>
+              <span className="text-white text-base lg:text-xl text-left">{project.name}</span>
             </button>
             {state[index] && (
-              <div className="mt-1 ml-6 text-white text-left text-base">{project.details}</div>
+              <div className="mt-1 ml-6 text-white text-left text-sm lg:text-base">{project.details}</div>
             )}
           </div>
         )})}
