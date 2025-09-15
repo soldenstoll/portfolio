@@ -2,6 +2,7 @@ import React, { useReducer } from "react";
 import { FaChevronRight, FaChevronDown } from "react-icons/fa";
 import "./ItemList.css";
 
+// UPDATE
 const projectsData = [
   {
     name: "Goal Animation and Soccer Stats Web App",
@@ -46,7 +47,7 @@ const projectsData = [
               </p>
              </>,
   },
-];
+]; 
 
 function reducer(state, action) {
   switch (action.type) {

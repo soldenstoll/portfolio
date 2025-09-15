@@ -3,6 +3,7 @@ import { FaChevronRight, FaChevronDown } from "react-icons/fa";
 import "./ItemList.css";
 import PhotoTextPair from "./PhotoTextPair";
 
+// UPDATE
 const workData = [
   {
     name: <PhotoTextPair img="/images/uw-logo.png" height={"50px"} padding={"5px"}>

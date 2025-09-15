@@ -31,7 +31,7 @@ function App() {
           </div>
           <footer>
             <div className='framed-footer-text'>
-              <p>© 2025 SOLDEN STOLL</p>
+              <p>© 2025 SOLDEN STOLL</p>  {/* UPDATE */}
               <p className="lg:hidden">BEST VIEWED ON DESKTOP</p>
             </div>
           </footer>
