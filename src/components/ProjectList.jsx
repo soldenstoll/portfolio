@@ -66,7 +66,7 @@ function ProjectList() {
   return (
     <div>
       <div className="item-list-box">
-        <h1>Technical Projects</h1>
+        <p className="text-3xl lg:text-5xl">Technical Projects</p>
       </div>
       <div className="text-white">
         {projectsData.map((project, index) => {

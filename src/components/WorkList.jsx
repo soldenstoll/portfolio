@@ -92,7 +92,7 @@ function WorkList() {
   return (
     <div>
       <div className="item-list-box">
-        <h1>Work Experience</h1>
+        <p className="text-3xl lg:text-5xl">Work Experience</p>
       </div>
       <div className="text-white">
         {workData.map((job, index) => {

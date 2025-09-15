@@ -6,7 +6,7 @@ const AboutSection = () => {
   return (
     <div>
       <div className='item-list-box'>
-        <h1>About</h1>
+        <p className="text-3xl lg:text-5xl">About</p>
       </div>
       <div className="flex min-h-90 flex-col gap-2">
         <div className="flex border-[2px] border-[var(--grid-line-color)] rounded-lg">
