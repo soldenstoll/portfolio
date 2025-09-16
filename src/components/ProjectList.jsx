@@ -2,7 +2,7 @@ import React, { useReducer } from "react";
 import { FaChevronRight, FaChevronDown } from "react-icons/fa";
 import "./ItemList.css";
 
-// UPDATE
+// UPDATE Project information below
 const projectsData = [
   {
     name: "Goal Animation and Soccer Stats Web App",

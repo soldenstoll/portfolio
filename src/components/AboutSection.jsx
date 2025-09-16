@@ -10,16 +10,16 @@ const AboutSection = () => {
       </div>
       <div className="flex min-h-90 flex-col gap-2">
         <div className="flex border-[2px] border-[var(--grid-line-color)] rounded-lg">
-          <PhotoTextPair img="/images/personal-site-headshot.png" height={"128px"} padding={"20px"}> {/* UPDATE */}
-            <p className="text-sm lg:text-base text-left"> {/* UPDATE */}
+          <PhotoTextPair img="/images/personal-site-headshot.png" height={"128px"} padding={"20px"}>  {/* UPDATE About picture in this line */}
+            <p className="text-sm lg:text-base text-left">  {/* UPDATE About below */}
               Hello! I'm Solden, a fourth year computer science and mathematics student
-              at the University of Washington Allen School, and an aspiring software engineer. I am an incoming research assistant with 
+              at the University of Washington Allen School, and an aspiring software engineer. I am currenlty an ML research assistant with 
               the <a href="https://sensor.cs.washington.edu/"> Sensor Systems Lab </a> at UW. I enjoy continuous learning,
               building interesting things, and solving complex problems. Within computer science, I am interested in 
               systems programming, machine learning, and data science. Within math, my interests lie in topology, and the 
-              mathematical side of machine learning. I am currently working as a TA for 
+              mathematical side of machine learning. I am also currently working as a TA for 
               <a href="https://sites.math.washington.edu/~m207/"> math 207 </a> with Dr. SU. In my free time I
-              enjoy ski touring, hiking, and watching soccer (go Chelsea), as well as competing in triathlons. Below is more
+              enjoy ski touring, hiking, and watching soccer (go Chelsea), as well as racing triathlons. Below is more
               information about my previous work experience, projects, and skills.
             </p>  
           </PhotoTextPair>
@@ -30,8 +30,8 @@ const AboutSection = () => {
             <div className="h-0 w-full border-[1px] border-[var(--grid-line-color)]"></div>
           </div>
           <div className="flex">
-            <PhotoTextPair img="/images/allen-school-logo.jpeg" height={"128px"} padding={"20px"}>  {/* UPDATE */}
-              <div className="flex flex-col text-left">  {/* UPDATE */}
+            <PhotoTextPair img="/images/allen-school-logo.jpeg" height={"128px"} padding={"20px"}>  {/* UPDATE Education picture in this line */}
+              <div className="flex flex-col text-left">  {/* UPDATE Education below */}
                 <p className="text-xl text-left">University of Washington, Paul G. Allen School</p>
                 <p className="text-left">B.Sc. Computer Science, B.Sc. Mathematics, 2022-2026</p>
                 <div className="h-0 w-full border-[1px] border-[var(--grid-line-color)]"></div>
@@ -51,7 +51,7 @@ const AboutSection = () => {
         <div className="flex w-full min-h-16 border-[2px] border-[var(--grid-line-color)] rounded-lg">
           <div className="flex flex-col text-left w-full p-5">
             <p className="text-2xl">Skills</p>
-            <div className="h-0 w-full border-[1px] border-[var(--grid-line-color)]"></div>  {/* UPDATE */}
+            <div className="h-0 w-full border-[1px] border-[var(--grid-line-color)]"></div>  {/* UPDATE Skills below */}
             <p className="text-sm lg:text-base"><b>Languages:</b> Proficient in Java, Python, C/C++, SQL. Familiar with JS/TS, HTML/CSS, Golang</p>
             <p className="text-sm lg:text-base"><b>Libraries/Tools:</b> Git, Pytorch, React, Node, POSIX IO, GDB, Tailwind CSS, NumPy, Pandas, OpenAI API, Seaborn, Matplotlib</p>
             <p className="text-sm lg:text-base"><b>Software:</b> Linux, Github/Gitlab, Bitbucket, Azure, VS Code, IntelliJ, Google Colab, Google Cloud, MS Office</p>

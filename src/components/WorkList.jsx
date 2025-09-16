@@ -3,10 +3,10 @@ import { FaChevronRight, FaChevronDown } from "react-icons/fa";
 import "./ItemList.css";
 import PhotoTextPair from "./PhotoTextPair";
 
-// UPDATE
+// UPDATE Work information below
 const workData = [
   {
-    name: <PhotoTextPair img="/images/uw-logo.png" height={"50px"} padding={"5px"}>
+    name: <PhotoTextPair img="/images/allen-school-logo.jpeg" height={"50px"} padding={"5px"}>
       <div className="align-middle text-left">
         <p className="text-base lg:text-xl">Undegraduate Research Assistant, Sensor Systems Lab</p>
         <p className="text-sm">September 2025 - Present</p>

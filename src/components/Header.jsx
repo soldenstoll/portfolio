@@ -2,7 +2,7 @@ import './Header.css';
 import useMediaQuery from '../hooks/useMediaQuery';
 
 function Header() {
-  const linkedin = "https://www.linkedin.com/in/solden/";  {/* UPDATE */}
+  const linkedin = "https://www.linkedin.com/in/solden/";  {/* UPDATE Social links here */}
   const github = "https://github.com/soldenstoll/";
   const email = "mailto:solden [at] cs.washington.edu";
   const orcid = "https://orcid.org/0009-0007-1228-9461"
@@ -17,7 +17,7 @@ function Header() {
     return (
       <header className="site-header">
         <div className="header-bar">
-          <div className="logo">SOLDEN STOLL</div>  {/* UPDATE */}
+          <div className="logo">SOLDEN STOLL</div>  {/* UPDATE Name in this line */}
           <div className="nav-links">
             <div className="menu">
               <a href="#">Home</a>
@@ -47,7 +47,7 @@ function Header() {
     return (
       <header className="site-header">
         <div className="header-bar">
-          <div className="logo">SOLDEN STOLL</div>  {/* UPDATE */}
+          <div className="logo">SOLDEN STOLL</div>  {/* UPDATE name in this line as well */}
           <div className="nav-links">
             <div className="socials">
               {links.map(({ href, icon }, idx) => (
