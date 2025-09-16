@@ -82,6 +82,14 @@ function reducer(state, action) {
         return {...state, [action.index]: true};
       }
       return {...state, [action.index]: !state[action.index]};
+    case "expand":
+      let tmp = {};
+      workData.map((_, index) => {
+        tmp = {...tmp, [index]: true};
+      });
+      return tmp;
+    case "collapse":
+      return {};
     default:
       return {};
   }
@@ -113,6 +121,18 @@ function WorkList() {
             )}
           </div>
         )})}
+      </div>
+      <div className="flex flex-row text-xs text-[gray]">
+        <button 
+          onClick={() => dispatch({ type: "expand", index: -1 })}
+          className="!bg-transparent">
+            expand all
+          </button>
+        <button 
+          onClick={() => dispatch({ type: "collapse", index: -1 })}
+          className="!bg-transparent">
+            collapse all
+        </button>
       </div>
     </div>
   );

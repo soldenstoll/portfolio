@@ -23,10 +23,10 @@ function App() {
           <div className='framed-box'>
             <AboutSection />
           </div>
-          <div className='framed-box' id="projects">
+          <div className='framed-box'>
             <ProjectList />
           </div>
-          <div className='framed-box-bottom' id="experience">
+          <div className='framed-box-bottom'>
             <WorkList />
           </div>
           <footer>

@@ -54,7 +54,7 @@ const AboutSection = () => {
             <div className="h-0 w-full border-[1px] border-[var(--grid-line-color)]"></div>  {/* UPDATE Skills below */}
             <p className="text-sm lg:text-base"><b>Languages:</b> Proficient in Java, Python, C/C++, SQL. Familiar with JS/TS, HTML/CSS, Golang</p>
             <p className="text-sm lg:text-base"><b>Libraries/Tools:</b> Git, Pytorch, React, Node, POSIX IO, GDB, Tailwind CSS, NumPy, Pandas, OpenAI API, Seaborn, Matplotlib</p>
-            <p className="text-sm lg:text-base"><b>Software:</b> Linux, Github/Gitlab, Bitbucket, Azure, VS Code, IntelliJ, Google Colab, Google Cloud, MS Office</p>
+            <p className="text-sm lg:text-base" id="projects"><b>Software:</b> Linux, Github/Gitlab, Bitbucket, Azure, VS Code, IntelliJ, Google Colab, Google Cloud, MS Office</p>
           </div>
         </div>
       </div>
