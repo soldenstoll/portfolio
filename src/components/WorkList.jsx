@@ -13,7 +13,7 @@ const workData = [
       </div>
     </PhotoTextPair>,
     details: <p>
-              Incoming research assistant in the <a href="https://sensor.cs.washington.edu/"> UW Sensor Systems Lab </a> lead by Dr. Joshua Smith."
+              Incoming research assistant in the <a href="https://sensor.cs.washington.edu/"> UW Sensor Systems Lab </a> lead by Dr. Joshua Smith.
               Using machine learning to encode visual comminication.
              </p>,
   },
