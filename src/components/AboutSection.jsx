@@ -14,9 +14,9 @@ const AboutSection = () => {
             <p className="text-sm lg:text-base text-left">  {/* UPDATE About below */}
               Hello! I'm Solden, a fourth year computer science and mathematics student
               at the University of Washington Allen School, and an aspiring software engineer. I am currenlty an ML research assistant with 
-              the <a href="https://sensor.cs.washington.edu/"> Sensor Systems Lab </a> at UW. I enjoy continuous learning,
-              building interesting things, and solving complex problems. Within computer science, I am interested in 
-              systems programming, machine learning, and data science. Within math, my interests lie in topology, and the 
+              the <a href="https://sensor.cs.washington.edu/"> Sensor Systems Lab </a> at UW, and a reseacher in the <a href="https://sites.math.washington.edu/ai/">UW Math AI Lab</a>. 
+              I enjoy continuous learning, solving difficult problems, building interesting things. Within computer science, I am interested in 
+              systems programming, machine learning, and data science/visualization. Within math, my interests lie in topology, and the 
               mathematical side of machine learning. I am also currently working as a TA for 
               <a href="https://sites.math.washington.edu/~m207/"> math 207 </a> with Dr. SU. In my free time I
               enjoy ski touring, hiking, and watching soccer (go Chelsea), as well as racing triathlons. Below is more

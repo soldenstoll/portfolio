@@ -6,6 +6,29 @@ import PhotoTextPair from "./PhotoTextPair";
 // UPDATE Work information below
 const workData = [
   {
+    name: <PhotoTextPair img="/images/uw-logo.png" height={"50px"} padding={"5px"}>
+      <div className="align-middle text-left">
+        <p className="text-base lg:text-xl">Undegraduate Research Assistant, Math AI Lab</p>
+        <p className="text-sm">September 2025 - Present</p>
+      </div>
+    </PhotoTextPair>,
+    details: <>
+            <p>
+              - Research assistant in the Math AI Lab supervised by Dr. Allison Henrich and Ph.D candidate Andrew Tawfeek.
+            </p>
+            <p>
+              - Leading development of a website to play interactive knot games such as the Knotting-Unknotting, and KnotLink games.
+            </p>
+            <p>
+              - Developed models to classify knot invariants from their mosaic representation with PyTorch, 
+              acheived 99.9% accuracy on classifying connectedness. 
+            </p>
+            <p>
+              - Developed algorithms to generate understandable mosaic representations of infinite families of knots.
+            </p>
+            </>
+  },
+  {
     name: <PhotoTextPair img="/images/allen-school-logo.jpeg" height={"50px"} padding={"5px"}>
       <div className="align-middle text-left">
         <p className="text-base lg:text-xl">Undegraduate Research Assistant, Sensor Systems Lab</p>
