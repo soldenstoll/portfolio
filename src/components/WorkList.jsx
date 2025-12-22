@@ -6,6 +6,32 @@ import PhotoTextPair from "./PhotoTextPair";
 // UPDATE Work information below
 const workData = [
   {
+    name: <PhotoTextPair img="/images/dc-energy-logo.png" height={"50px"} padding={"5px"}>
+      <div className="align-middle text-left">
+        <p className="text-base lg:text-xl">First Year Analyst, DC Energy</p>
+        <p className="text-sm">Incoming August 2026</p>
+      </div>
+    </PhotoTextPair>,
+    details: <>
+            <p>
+              - Incoming first year commodities trading analyst.
+            </p>
+            </>
+  },
+  {
+    name: <PhotoTextPair img="/images/trase_logo.jpeg" height={"50px"} padding={"5px"}>
+      <div className="align-middle text-left">
+        <p className="text-base lg:text-xl">Machine Learning Engineer Intern, Trase Systems</p>
+        <p className="text-sm">January 2026 - Present</p>
+      </div>
+    </PhotoTextPair>,
+    details: <>
+            <p>
+              - Building rapid prototypes for AI agents in regulated industries.
+            </p>
+            </>
+  },
+  {
     name: <PhotoTextPair img="/images/uw-logo.png" height={"50px"} padding={"5px"}>
       <div className="align-middle text-left">
         <p className="text-base lg:text-xl">Undegraduate Research Assistant, Math AI Lab</p>
@@ -20,31 +46,26 @@ const workData = [
               - Leading development of a website to play interactive knot games such as the Knotting-Unknotting, and KnotLink games.
             </p>
             <p>
+              - Built a reinforcement learning model to play the Knotting-Unknotting game to investigate how close to optimal
+              a model can get in a game with known winning strategies.
+            </p>
+            <p>
               - Developed models to classify knot invariants from their mosaic representation with PyTorch, 
-              acheived 99.9% accuracy on classifying connectedness. 
+              acheived 99.9% accuracy on classifying suitable connectedness. 
             </p>
             <p>
               - Developed algorithms to generate understandable mosaic representations of infinite families of knots.
             </p>
+            <p>
+              - Presented preliminary work at a school research event.
+            </p>
             </>
-  },
-  {
-    name: <PhotoTextPair img="/images/allen-school-logo.jpeg" height={"50px"} padding={"5px"}>
-      <div className="align-middle text-left">
-        <p className="text-base lg:text-xl">Undegraduate Research Assistant, Sensor Systems Lab</p>
-        <p className="text-sm">September 2025 - Present</p>
-      </div>
-    </PhotoTextPair>,
-    details: <p>
-              Incoming research assistant in the <a href="https://sensor.cs.washington.edu/"> UW Sensor Systems Lab </a> lead by Dr. Joshua Smith.
-              Using machine learning to encode visual comminication.
-             </p>,
   },
   {
     name: <PhotoTextPair img="/images/uw-logo.png" height={"50px"} padding={"5px"}>
       <div className="align-middle text-left">
         <p className="text-base lg:text-xl">Course Assistant, University of Washington</p>
-        <p className="text-sm">June 2025 - Present</p>
+        <p className="text-sm">June 2025 - December 2025</p>
       </div>
     </PhotoTextPair>,
     details: <p>
@@ -77,7 +98,7 @@ const workData = [
   {
     name: <PhotoTextPair img="/images/uw-logo.png" height={"50px"} padding={"5px"}>
       <div className="align-middle text-left">
-        <p className="text-base lg:text-xl">Undegraduate Researcher, Univeristy of Washington Department of Mathematics</p>
+        <p className="text-base lg:text-xl">Undegraduate Research Assistant, Univeristy of Washington Department of Mathematics</p>
         <p className="text-sm"> March 2024 - September 2025</p>
       </div>
     </PhotoTextPair>,

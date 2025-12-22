@@ -5,6 +5,16 @@ import "./ItemList.css";
 // UPDATE Project information below
 const projectsData = [
   {
+    name: "How Leicester City Won the Premier League in 2015/16",
+    details: <>
+              <p>
+                Built an interactive, data driven article exploring Leicesters unlikely title
+                win in the 2015/16 Premier League Season with <a href="https://www.linkedin.com/in/liam-shalom/">Liam Shalom</a>. Check
+                out the project <a href="https://leicester-pl-championship.vercel.app/">here</a>.
+              </p>
+             </>,
+  },
+  {
     name: "Goal Animation and Soccer Stats Web App",
     details: <>
               <p>

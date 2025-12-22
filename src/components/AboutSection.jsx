@@ -13,13 +13,13 @@ const AboutSection = () => {
           <PhotoTextPair img="/images/personal-site-headshot.png" height={"128px"} padding={"20px"}>  {/* UPDATE About picture in this line */}
             <p className="text-sm lg:text-base text-left">  {/* UPDATE About below */}
               Hello! I'm Solden, a fourth year computer science and mathematics student
-              at the University of Washington Allen School, and an aspiring software engineer. I am currenlty an ML research assistant with 
-              the <a href="https://sensor.cs.washington.edu/"> Sensor Systems Lab </a> at UW, and a reseacher in the <a href="https://sites.math.washington.edu/ai/">UW Math AI Lab</a>. 
-              I enjoy continuous learning, solving difficult problems, building interesting things. Within computer science, I am interested in 
-              systems programming, machine learning, and data science/visualization. Within math, my interests lie in topology, and the 
-              mathematical side of machine learning. I am also currently working as a TA for 
-              <a href="https://sites.math.washington.edu/~m207/"> math 207 </a> with Dr. SU. In my free time I
-              enjoy ski touring, hiking, and watching soccer (go Chelsea), as well as racing triathlons. Below is more
+              at the University of Washington Allen School. I am currenlty a Machine Learning
+              Engineer Intern at Trase Systens and an undegraduate reseacher in the 
+              <a href="https://sites.math.washington.edu/ai/">&nbsp;UW Math AI Lab</a>. 
+              Within math, my interests lie in topology, probability and financial math, and the 
+              mathematical side of machine learning. In computer science, my interests are in data science
+              and visualization, as well as systems programming. In my free time I
+              enjoy endurance sports, ski touring, hiking, climbing, and watching soccer (go Chelsea). Below is more
               information about my previous work experience, projects, and skills.
             </p>  
           </PhotoTextPair>
@@ -37,11 +37,11 @@ const AboutSection = () => {
                 <div className="h-0 w-full border-[1px] border-[var(--grid-line-color)]"></div>
                 <p className="text-sm lg:text-base">
                   <b>Relavent Coursework:</b> Data Structures, Algorithms, Database Internals, Systems Programming,
-                  Network Programming, Data Visualization, and Machine Learning. Math coursework in Image Processing
-                  and Machine Learning, Modeling, Probability Theory, Algebra, Manifolds.
+                  Network Programming, Data Visualization, and Machine Learning. Math coursework in The Art of Problem Solving,
+                  Image Processing and Machine Learning, Discrete Modeling, Probability Theory, Analysis, Algebra, Manifolds.
                 </p>
                 <p className="text-sm lg:text-base">
-                  <b>Honors:</b> GPA - 3.9, Putnam Exam - scored 13, ranked 820/3988. Deans List 11/11 quarters. 
+                  <b>Honors:</b> GPA - 3.9, Putnam Exam - scored 13, ranked 820/3988 in 2024, tbd in 2025, Deans List 13/13 quarters (Summer included). 
                 </p>
               </div>
             </PhotoTextPair>
@@ -52,9 +52,9 @@ const AboutSection = () => {
           <div className="flex flex-col text-left w-full p-5">
             <p className="text-2xl">Skills</p>
             <div className="h-0 w-full border-[1px] border-[var(--grid-line-color)]"></div>  {/* UPDATE Skills below */}
-            <p className="text-sm lg:text-base"><b>Languages:</b> Proficient in Java, Python, C/C++, SQL. Familiar with JS/TS, HTML/CSS, Golang</p>
+            <p className="text-sm lg:text-base"><b>Languages:</b> Java, Python, R, C/C++, SQL JS/TS, HTML/CSS</p>
             <p className="text-sm lg:text-base"><b>Libraries/Tools:</b> Git, Pytorch, React, Node, POSIX IO, GDB, Tailwind CSS, NumPy, Pandas, OpenAI API, Seaborn, Matplotlib</p>
-            <p className="text-sm lg:text-base" id="projects"><b>Software:</b> Linux, Github/Gitlab, Bitbucket, Azure, VS Code, IntelliJ, Google Colab, Google Cloud, MS Office</p>
+            <p className="text-sm lg:text-base" id="projects"><b>Software:</b> Linux, Github/Gitlab, Google Cloud, MS Office</p> {/* id=projects set for scroll navigation */}
           </div>
         </div>
       </div>
