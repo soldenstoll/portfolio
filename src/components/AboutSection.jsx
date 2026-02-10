@@ -10,7 +10,7 @@ const AboutSection = () => {
       </div>
       <div className="flex min-h-90 flex-col gap-2">
         <div className="flex border-[2px] border-[var(--grid-line-color)] rounded-lg">
-          <PhotoTextPair img="/images/personal-site-headshot.png" height={"128px"} padding={"20px"}>  {/* UPDATE About picture in this line */}
+          <PhotoTextPair img="/images/about-photo.jpg" height={"128px"} padding={"20px"}>  {/* UPDATE About picture in this line */}
             <p className="text-sm lg:text-base text-left">  {/* UPDATE About below */}
               Hello! I'm Solden, a fourth year computer science and mathematics student
               at the University of Washington Allen School. I am currenlty a Machine Learning

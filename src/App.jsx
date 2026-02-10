@@ -6,10 +6,12 @@ import ProjectList from './components/ProjectList.jsx';
 import WorkList from './components/WorkList.jsx';
 import AboutSection from './components/AboutSection.jsx';
 import { Analytics } from '@vercel/analytics/react';
+import ThreeBackground from './components/ParticleBackground.jsx';
 
 function App() {
   return (
     <div className="app-container">
+      {/* <ThreeBackground /> */}
       <Header />
       <div className="fullpage-wrapper relative min-h-screen">
         <BackgroundImage path="personal-site-background.jpg"/>
