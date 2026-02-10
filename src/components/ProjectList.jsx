@@ -21,7 +21,8 @@ const projectsData = [
                 Built PyTorch models predicting goal probability (xG/xGOT) and player-based goal probability. Currently building a full
                 stack web app around it for coaches and players to calculate xG based on their shots, compare xG for different
                 famous players, and display 3D animated models of past goals. Using Three.js for animation, and a custom built
-                RESTful API backend using Go and Gin.
+                RESTful API backend using Go and Gin. Code can be found 
+                <a href="https://colab.research.google.com/drive/1hk_wcgy9LEGRQSxjXg72ICqjenoIaTGo#scrollTo=yPrj7ZdUrZdD">here</a>.
               </p>
              </>,
   },
@@ -37,16 +38,6 @@ const projectsData = [
              </>,
   },
   {
-    name: "TKE Website",
-    details: <>
-              <p>
-                Codeveloped <a href="https://uwtke.beer">uwtke.beer</a>. Indicidual contributions include
-                utilizing the Google Maps JS API to provide streetview viewing and directions, devoloping the Rush page
-                animating components, and refactoring elements for better mobile viewing.
-              </p>
-             </>,
-  },
-  {
     name: "Automated Assignment Reminder",
     details: <>
               <p>
@@ -54,6 +45,23 @@ const projectsData = [
                 devices. Created in response to the large amount of excercises in CSE 333. Can be generalized
                 to create reminders based on data from any website, and instructions/code can be found on my
                 <a href="https://github.com/soldenstoll/uw-cse-assignment-reminder"> Github</a>.
+              </p>
+             </>,
+  },
+  {
+    name: "xk Operating System",
+    details: <>
+              <p>
+                Implemented an OS kernel with multiprocessing, system calls, virtual memory, and a transactional file system.
+                Followed the following <a href="https://pdos.csail.mit.edu/6.828/2025/xv6.html">documentation</a>.
+              </p>
+             </>,
+  },
+  {
+    name: "Web Proxy",
+    details: <>
+              <p>
+                Built a multithreaded web proxy. Code can be found <a href="https://github.com/brando3303/HTTPProxy">here</a>.
               </p>
              </>,
   },

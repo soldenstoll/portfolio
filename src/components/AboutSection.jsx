@@ -36,12 +36,13 @@ const AboutSection = () => {
                 <p className="text-left">B.Sc. Computer Science, B.Sc. Mathematics, 2022-2026</p>
                 <div className="h-0 w-full border-[1px] border-[var(--grid-line-color)]"></div>
                 <p className="text-sm lg:text-base">
-                  <b>Relavent Coursework:</b> Data Structures, Algorithms, Database Internals, Systems Programming,
-                  Network Programming, Data Visualization, and Machine Learning. Math coursework in The Art of Problem Solving,
-                  Image Processing and Machine Learning, Discrete Modeling, Probability Theory, Analysis, Algebra, Manifolds.
+                  <b>Relavent Coursework:</b> Graduate Statistical Methods, Graduate Machine Learning, Algorithms, Computer Vision, 
+                  Systems Programming, Network Programming, Operating Systems, Data Visualization, and Database Internals. 
+                  Math coursework in The Art of Problem Solving, Image Processing and Machine Learning, Discrete Modeling, 
+                  Probability Theory, Analysis, Algebra, Graduate Manifolds.
                 </p>
                 <p className="text-sm lg:text-base">
-                  <b>Honors:</b> GPA - 3.9, Putnam Exam - scored 13, ranked 820/3988 in 2024, tbd in 2025, Deans List 13/13 quarters (Summer included). 
+                  <b>Honors:</b> GPA - 3.9, Putnam Exam - scored 13, ranked 820/3988 in 2024, tbd in 2025, Deans List 13/13 quarters (counting summers). 
                 </p>
               </div>
             </PhotoTextPair>
